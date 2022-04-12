@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: day1/e3.html
+  checksum: 14d48d3053cacae8143090e4318cb33eaba5e9ff5a64cbf44634ef01f0058080
+version: ""

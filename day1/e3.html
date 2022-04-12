@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <p>User info:</p>
+    <hr />
+    <form action="#">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" autocomplete="off" />
+      <br />
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <br />
+      <label for="party">Party</label>
+      <br />
+      <input type="radio" id="democrat" name="party" value="democrat" checked />
+      <label for="democrat">Democrat</label>
+      <br />
+      <input type="radio" id="republican" name="party" value="republican" />
+      <label for="republican">Republican</label>
+      <br />
+      <br />
+      <label for="state">State: </label>
+      <br />
+      <select name="state" id="state">
+        <option value="WB">WB</option>
+        <option value="UP">UP</option>
+        <option value="MP">MP</option>
+        <option value="AP">AP</option>
+        <option value="TN">TN</option>
+      </select>
+      <br />
+      <br />
+      <label for="comments">Comments:</label>
+      <br />
+      <textarea name="comments" id="comments" cols="50" rows="4"></textarea>
+      <br />
+      <br />
+      <label for="info">Send me more information:</label>
+      <input type="checkbox" name="info" />
+      <br />
+      <br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" disabled />
+      <br />
+      <br />
+      <label for="start">Start Time:</label>
+      <input type="datetime-local" name="start" />
+      <br />
+      <br />
+      <label for="color">Select color:</label>
+      <input type="color" name="color" />
+      <br />
+      <br />
+      <label for="dp">Profile Image:</label>
+      <input type="file" name="dp" />
+      <br />
+      <br />
+      <button type="reset">Clear Form</button>
+      <button type="submit">Send Info</button>
+    </form>
+  </body>
+</html>
