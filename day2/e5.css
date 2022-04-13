@@ -1,0 +1,42 @@
+div {
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+}
+
+#red {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#green {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#blue {
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#purple {
+  background-color: purple;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#grey {
+  background-color: grey;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

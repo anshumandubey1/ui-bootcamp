@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 5px;
+  padding: 2px;
+}
+
+img {
+  float: right;
+}
+
+span {
+  margin: 5px;
+  padding: 5px;
+}
+
+section header {
+  color: rgb(0, 145, 255);
+  background-color: rgb(132, 197, 246);
+  padding: 5px;
+  font-weight: 900;
+}
+
+section article {
+  padding: 5px;
+}
+
+.blue {
+  color: rgb(0, 145, 255);
+}
+
+.deep-blue {
+  color: rgb(2, 52, 90);
+}
+
+.bold {
+  font-weight: 900;
+}
+
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+form label {
+  margin: 5px;
+}
+
+form input {
+  margin: 5px;
+}
+
+form button {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+}
+
+.weird-font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

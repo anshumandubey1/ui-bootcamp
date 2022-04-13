@@ -1,0 +1,32 @@
+.relative {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 50px;
+  right: 5px
+}
+
+.absolute {
+  border: 1px solid blue;
+  background-color: rgba(0, 0, 200, 0.9);
+  position: absolute;
+  top: 5px;
+  right: 55px;
+  z-index: -1;
+}
+
+.fixed {
+  border: 1px solid green;
+  background-color: rgba(0, 200, 0, 0.9);
+  position: fixed;
+  top: 5px;
+  right: 5px
+}
+
+.sticky {
+  border: 1px solid red;
+  background-color: rgba(200, 0, 0, 0.9);
+  position: sticky;
+  top: 5px;
+  right: 80px
+}
