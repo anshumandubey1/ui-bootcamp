@@ -1,0 +1,74 @@
+$primary-color: #0a0a0a
+$light-font: #fff
+$dark-font: $primary-color
+
+body
+  color: $dark-font
+  margin: 0
+
+a
+  text-decoration: none
+  color: $light-font
+
+header 
+  background: $primary-color
+  color: $light-font
+  display: flex
+  justify-content: space-between
+  padding: 10px
+  height: 7vh
+
+  h1
+    flex-grow: 3
+    margin: auto 10px
+  
+  nav
+    flex-grow: 1
+    margin: 10px
+    display: flex
+    align-items: center
+    justify-content: flex-end
+
+    a
+      margin: 10px auto
+
+main
+  padding: 10px
+  padding-top: 3vh
+
+  section
+    padding: 10px
+    width: 60vw
+
+    ul
+      margin: 0
+      padding: 0
+      display: flex
+      flex-wrap: wrap
+      justify-content: flex-start
+
+      li
+        list-style: none
+        flex-grow: 1
+        width: 30vw
+        margin: 20px
+        
+        border: 3px solid $primary-color
+
+        h3
+          background: $primary-color
+          margin: 0
+          color: $light-font
+          padding: 5px
+
+        p
+          padding: 5px
+
+  aside
+    color: $light-font
+    background: $primary-color
+    width: 30vw
+    max-width: 300px
+    float: right
+    padding: 10px
+    height: 80vh
