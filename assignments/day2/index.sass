@@ -5,6 +5,7 @@ $dark-font: $primary-color
 body
   color: $dark-font
   margin: 0
+  font-size: 1.3rem
 
 a
   text-decoration: none
@@ -34,24 +35,30 @@ header
 
 main
   padding: 10px
-  padding-top: 3vh
+  padding-top: 2vh
+  display: flex
+  height: 87vh
 
   section
-    padding: 10px
+    padding-right: 20px
     width: 60vw
+    flex-grow: 4
+    overflow-y: scroll
+
 
     ul
       margin: 0
       padding: 0
-      display: flex
-      flex-wrap: wrap
-      justify-content: flex-start
+      display: grid
+      grid-column: 3
+      grid-auto-flow: row dense
+      gap: 20px 20px
+      grid-template-columns: 1fr 1fr 1fr
 
       li
         list-style: none
         flex-grow: 1
-        width: 30vw
-        margin: 20px
+        width: 100%
         
         border: 3px solid $primary-color
 
@@ -68,7 +75,6 @@ main
     color: $light-font
     background: $primary-color
     width: 30vw
+    flex-grow: 1
     max-width: 300px
-    float: right
     padding: 10px
-    height: 80vh
