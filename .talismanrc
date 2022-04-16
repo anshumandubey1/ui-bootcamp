@@ -1,5 +1,4 @@
-
 fileignoreconfig:
-- filename: day2/e1.html
-  checksum: 2c2ef8bd48a7eb2febac1e637cdb6730800414c72a56cb2c85939b1720c6a145
-version: ""
+  - filename: assignments/day3.js
+    checksum: 802ae879baeef73d09e0ff8b0dcf31729b6fe4eb96ceb3243f819ac3ac35b1f9
+version: ''
