@@ -2,6 +2,12 @@ scopeconfig:
   - scope: node
 
 fileignoreconfig:
-  - filename: day4/e3.js
-    checksum: 00a4f18da2e71d6ebe73ec1b90a2c815651dec5d30c32e6fbc77f0ced4db4684
+  - filename: day5/config/env.js
+    checksum: a553388f7d11fd3f885ab6ea59fd379eb1c67969b2a94d34a40f6b336e725d49
+  - filename: day5/config/jest/fileTransform.js
+    checksum: f37dc06d671f77e5e0353b92f15854befd74f2112d35281c8455ae1403f9b6b7
+  - filename: day5/config/getHttpsConfig.js
+    checksum: afb7348a32e27c06f980b6b2fcf750f5f67f26a776ae2f6dc3aaa16ba8276b39
+  - filename: day5/config/webpack.config.js
+    checksum: 2ed66fdfb4823e94f838c6ddbaa6abb5400533bf492e43a11f41f9c72d885812
 version: ''
