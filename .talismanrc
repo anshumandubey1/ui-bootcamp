@@ -1,4 +1,7 @@
+scopeconfig:
+  - scope: node
+
 fileignoreconfig:
-  - filename: assignments/day3.js
-    checksum: 802ae879baeef73d09e0ff8b0dcf31729b6fe4eb96ceb3243f819ac3ac35b1f9
+  - filename: day4/e3.js
+    checksum: 00a4f18da2e71d6ebe73ec1b90a2c815651dec5d30c32e6fbc77f0ced4db4684
 version: ''
